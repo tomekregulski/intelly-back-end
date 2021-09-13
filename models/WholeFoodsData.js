@@ -19,6 +19,10 @@ WholeFoodsData.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    category: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     sku: {
       type: DataTypes.STRING,
       allowNull: false,
