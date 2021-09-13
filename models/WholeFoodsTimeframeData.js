@@ -52,11 +52,31 @@ WholeFoodsTimeframeData.init(
       allowNull: false,
     },
     net_sales: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    net_sales_ly: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    p_net_sales_yoy: {
+      type: DataTypes.STRING,
       allowNull: true,
     },
     unit_sales: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    unit_sales_ly: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    p_unit_sales_yoy: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    p_cat_contribution: {
+      type: DataTypes.STRING,
       allowNull: true,
     },
     timeframe: {
