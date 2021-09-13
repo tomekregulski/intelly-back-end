@@ -8,7 +8,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -22,7 +21,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -36,7 +34,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -50,7 +47,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -64,7 +60,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -78,7 +73,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -92,7 +86,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -106,7 +99,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -120,7 +112,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -134,7 +125,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -148,7 +138,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -162,7 +151,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -176,7 +164,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -190,7 +177,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -204,7 +190,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -218,7 +203,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -232,7 +216,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -246,7 +229,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -260,7 +242,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -274,7 +255,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -288,7 +268,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -302,7 +281,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -316,7 +294,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -330,7 +307,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -344,7 +320,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -358,7 +333,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -372,7 +346,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -386,7 +359,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -400,7 +372,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -414,7 +385,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -428,7 +398,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -442,7 +411,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -456,7 +424,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -470,7 +437,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -484,7 +450,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -498,7 +463,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -512,7 +476,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -526,7 +489,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -540,7 +502,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -554,7 +515,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -568,7 +528,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -582,7 +541,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -596,7 +554,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -610,7 +567,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -624,7 +580,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -638,7 +593,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -652,7 +606,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -666,7 +619,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -680,7 +632,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -694,7 +645,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -708,7 +658,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -722,7 +671,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -736,7 +684,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
@@ -750,7 +697,6 @@ const wholeFoodsDataSeeds = [
     salesWeek2: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek3: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
     salesWeek4: parseFloat((Math.random() * (10 - 1) + 1).toFixed(1)),
-
     sales12W: parseFloat((Math.random() * (160 - 16) + 16).toFixed(1)),
     sales52W: parseFloat((Math.random() * (520 - 52) + 52).toFixed(1)),
     price: 3.99,
