@@ -1,7 +1,9 @@
 const WholeFoodsData = require('./WholeFoodsData');
-WholeFoodsWeeklyArchive = require('./WholeFoodsWeeklyArchive');
+const WholeFoodsWeeklyArchive = require('./WholeFoodsWeeklyArchive');
+const WholeFoodsTimeframeData = require('./WholeFoodsTimeframeData');
 
 module.exports = {
   WholeFoodsData,
   WholeFoodsWeeklyArchive,
+  WholeFoodsTimeframeData,
 };

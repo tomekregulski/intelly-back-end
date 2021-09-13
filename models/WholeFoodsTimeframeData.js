@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class WholeFoodsWeeklyArchive extends Model {}
+class WholeFoodsTimeframeData extends Model {}
 
-WholeFoodsWeeklyArchive.init(
+WholeFoodsTimeframeData.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -59,8 +59,8 @@ WholeFoodsWeeklyArchive.init(
       type: DataTypes.INTEGER,
       allowNull: true,
     },
-    week_ending: {
-      type: DataTypes.INTEGER,
+    timeframe: {
+      type: DataTypes.STRING,
       allowNull: true,
     },
   },
@@ -68,8 +68,8 @@ WholeFoodsWeeklyArchive.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'wholeFoodsWeeklyArchive',
+    modelName: 'wholeFoodsTimeframeData',
   }
 );
 
-module.exports = WholeFoodsWeeklyArchive;
+module.exports = WholeFoodsTimeframeData;
