@@ -29,31 +29,31 @@ WholeFoodsData.init(
     },
     salesWeek: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
     salesWeek2: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
     salesWeek3: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
     salesWeek4: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
     sales12W: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
     sales52W: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
     price: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
   },
   {
