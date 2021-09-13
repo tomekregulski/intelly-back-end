@@ -4,8 +4,8 @@ const { WholeFoodsData } = require('../models');
 router.get('/', async (req, res) => {
   try {
     const allWholeFoodData = await WholeFoodsData.findAll();
-    const wholeFoodsData = allWholeFoodData.map((artist) =>
-      artist.get({ plain: true })
+    const wholeFoodsData = allWholeFoodData.map((item) =>
+      item.get({ plain: true })
     );
     res.status(200).json(wholeFoodsData);
   } catch (err) {
