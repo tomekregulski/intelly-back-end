@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const wholeFoodsRoutes = require('./wholeFoodsRoutes');
 const wholeFoodsWeeklyArchiveRoutes = require('./wholeFoodsWeeklyArchiveRoutes');
-const wholeFoodsTimeframeDataRoutes = require('./wholeFoodsTimeframeDataRoutes');
+const wholeFoodsTimeframeDataRoutes = require('./wholeFoodsTimeFrameDataRoutes');
 const userRoutes = require('./userRoutes');
 
 router.use('/api/whole-foods', wholeFoodsRoutes);
