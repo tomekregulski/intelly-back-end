@@ -2,7 +2,8 @@ const seedWholeFoodsData = require('./wholeFoodsSeeds');
 const { WholeFoodsWeeklyArchive } = require('../models');
 const { WholeFoodsTimeframeData } = require('../models');
 const wholeFoodsWeeklyArchiveSeeds = require('./wholeFoodsWeeklyArchiveSeeds.json');
-const wholeFoodsTimeframeDataSeeds = require('./wholeFoodsTimeframeDataSeeds.json');
+// const wholeFoodsTimeframeDataSeeds = require('./wholeFoodsTimeframeDataSeeds.json');
+const simmerSasoSeeds = require('./simmerSasoSeeds.json');
 
 const sequelize = require('../config/connection');
 
@@ -13,7 +14,7 @@ const seedWholeFoodsWeeklyArchive = () =>
   WholeFoodsWeeklyArchive.bulkCreate(wholeFoodsWeeklyArchiveSeeds);
 
 const seedWholeFoodsTimeframeData = () =>
-  WholeFoodsTimeframeData.bulkCreate(wholeFoodsTimeframeDataSeeds);
+  WholeFoodsTimeframeData.bulkCreate(simmerSasoSeeds);
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
