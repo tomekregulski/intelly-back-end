@@ -7,6 +7,6 @@ const userRoutes = require('./userRoutes');
 router.use('/api/whole-foods', wholeFoodsRoutes);
 router.use('/api/whole-foods-weekly-archive', wholeFoodsWeeklyArchiveRoutes);
 router.use('/api/whole-foods-timeframe-data', wholeFoodsTimeframeDataRoutes);
-router.use('/', userRoutes);
+router.use('/api/users', userRoutes);
 
 module.exports = router;
