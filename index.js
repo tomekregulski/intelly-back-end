@@ -7,8 +7,17 @@ const cors = require('cors');
 const routes = require('./controllers');
 const PORT = process.env.PORT || 5000;
 
-const app = express();
+const cookieSession = require('cookie-session');
 
+const app = express();
+app.set('trust proxy', true);
+
+app.use(
+  cookieSession({
+    signed: false,
+    secure: process.env.NODE_ENV !== 'test',
+  })
+);
 // var corsOptions = {
 //   origin: '/',
 // };

@@ -33,10 +33,7 @@ router.get('/timeframes', async (req, res) => {
           type: QueryTypes.SELECT,
         }
       );
-    // const wholeFoodsTimeframeData = allWholeFoodsTimeframeData.map((item) =>
-    //   item.get({ plain: true })
-    // );
-    console.log(allWholeFoodsTimeframeData);
+
     res.status(200).json(allWholeFoodsTimeframeData);
   } catch (err) {
     console.log(err);
