@@ -10,12 +10,20 @@ const UserData = [
     brands: 'SIMMER, SaSo',
   },
   {
-    email: 'admin@intelly.test',
-    password: 'admin',
-    first_name: 'Admin',
-    last_name: 'Test',
-    role: 'admin, client',
-    brands: 'SIMMER, SaSo',
+    email: 'guest@intelly.test',
+    password: 'guest',
+    first_name: 'Guest',
+    last_name: 'User',
+    role: 'demo',
+    brands: 'Demo Brand',
+  },
+  {
+    email: 'tomek@intelly.test',
+    password: '5itarN44d',
+    first_name: 'Tomek',
+    last_name: 'Regulski',
+    role: 'admin',
+    brands: 'Demo Brand, SIMMER, SaSo',
   },
 ];
 
