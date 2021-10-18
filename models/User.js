@@ -20,6 +20,10 @@ User.init(
     email: {
       type: DataTypes.STRING,
       allowNull: false,
+      unique: true,
+      validate: {
+        isEmail: true,
+      },
     },
     password: {
       type: DataTypes.STRING,
@@ -33,13 +37,21 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    brands: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
     role: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    access: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    image: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    brands: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
   },
   {

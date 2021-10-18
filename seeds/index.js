@@ -5,7 +5,6 @@
 // const simmerSasoSeeds = require('./simmerSasoSeeds.json');
 const { WholeFoodsTimeframeData } = require('../models');
 const wfmTimeframeSeed = require('./wfmTimeframeSeed.json');
-const seedUsers = require('./userSeeds');
 
 const sequelize = require('../config/connection');
 
@@ -18,9 +17,6 @@ const seedWholeFoodsTimeframeData = () =>
 const seedAll = async () => {
   await sequelize.sync({ force: true });
   console.log('\n----- DATABASE SYNCED -----\n');
-
-  await seedUsers();
-  console.log('\n----- USERS SEEDED -----\n');
 
   // await seedWholeFoodsData();
   // console.log('\n----- WHOLE FOODS DATA SEEDED -----\n');
