@@ -16,6 +16,12 @@ As mentioned above, Intelly is split into several independent repos in order to 
 
 The repo you are currently visiting is the back end for the Retail Data Dashboard. It provides the server-side functionality needed to allow the front end to function. To read more about that, please visit the front end repo in the link provided below.
 
+# Code Links
+
+<a href="https://github.com/tomekregulski/intelly-server/tree/master/controllers">All Routes</a><br>
+<a href="https://github.com/tomekregulski/intelly-server/tree/master/models">All Models</a><br>
+<a href="https://github.com/tomekregulski/intelly/blob/main/src/dataProcessing/dataProcessing.js">Code for Processing Incoming Sales Data</a><br>
+
 # Additional Goals for Development
 
 The development of this server will be guided by the goals for the front end, ensuring that the necessary routes are built, as well as continuously revised for optimal performance. Additionally, we will soon be implementing proper role-based protection for all endpoints.
@@ -47,4 +53,3 @@ The following is a list of all related projects that have entered some stage of 
 <a href="https://github.com/tomekregulski/intelly-form-builder-client">Form Builder - Front End</a> - Early Stage, Not Deployed for Public Demo <br>
 <a href="https://github.com/tomekregulski/intelly-form-builder-server">Form Builder - Back End</a> - Early Stage, Not Deployed for Public Demo <br>
 <a href="https://github.com/tomekregulski/intelly-schedule-client">Schedule - Front End</a> - Early Stage, Not Deployed for Public Demo <br>
-
