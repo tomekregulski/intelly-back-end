@@ -20,7 +20,7 @@ The repo you are currently visiting is the back end for the Retail Data Dashboar
 
 <a href="https://github.com/tomekregulski/intelly-server/tree/master/controllers">All Routes</a><br>
 <a href="https://github.com/tomekregulski/intelly-server/tree/master/models">All Models</a><br>
-<a href="https://github.com/tomekregulski/intelly/blob/main/src/dataProcessing/dataProcessing.js">Code for Processing Incoming Sales Data</a><br>
+<a href="https://github.com/tomekregulski/intelly-server/tree/master/__test__">All Tests</a><br>
 
 # Additional Goals for Development
 
