@@ -1,29 +1,40 @@
 const router = require('express').Router();
 const { Op, QueryTypes } = require('sequelize');
 const { WholeFoodsTimeframeData } = require('../models');
+const checkBrandParams = require('../middleware/checkBrandParams');
+const checkTimeframeParams = require('../middleware/checkTimeframeParams');
+const checkMultipleTimeframes = require('../middleware/checkMultipleTimeframes');
 
-router.get('/', async (req, res) => {
-  try {
-    const allWholeFoodsTimeframeData = await WholeFoodsTimeframeData.findAll({
-      where: {
-        brand: req.headers.brand,
-        timeframe: {
-          [Op.like]: `${req.headers.timeframe}%`,
+const requireAuth = require('../middleware/requireAuth');
+const requireServiceAccess = require('../middleware/requireServiceAccess');
+
+router.get(
+  '/',
+  requireAuth,
+  requireServiceAccess,
+  checkBrandParams,
+  checkTimeframeParams,
+  async (req, res) => {
+    try {
+      const allWholeFoodsTimeframeData = await WholeFoodsTimeframeData.findAll({
+        where: {
+          brand: req.headers.brand,
+          timeframe: {
+            [Op.like]: `${req.headers.timeframe}%`,
+          },
         },
-      },
-    });
-    const wholeFoodsTimeframeData = allWholeFoodsTimeframeData.map((item) =>
-      item.get({ plain: true })
-    );
-    res.status(200).json(wholeFoodsTimeframeData);
-  } catch (err) {
-    console.log(err);
-
-    res.status(500).json(err);
+      });
+      const wholeFoodsTimeframeData = allWholeFoodsTimeframeData.map((item) =>
+        item.get({ plain: true })
+      );
+      res.status(200).json(wholeFoodsTimeframeData);
+    } catch (err) {
+      res.status(500).json({ error: String(err) });
+    }
   }
-});
+);
 
-router.get('/timeframes', async (req, res) => {
+router.get('/timeframes', checkBrandParams, async (req, res) => {
   try {
     const allWholeFoodsTimeframeData =
       await WholeFoodsTimeframeData.sequelize.query(
@@ -36,56 +47,64 @@ router.get('/timeframes', async (req, res) => {
 
     res.status(200).json(allWholeFoodsTimeframeData);
   } catch (err) {
-    console.log(err);
-
     res.status(500).json(err);
   }
 });
 
-router.get('/weekly', async (req, res) => {
-  let temp = req.headers.timeframes.split(',');
-  try {
-    const allWholeFoodsTimeframeData = await WholeFoodsTimeframeData.findAll({
-      where: {
-        brand: req.headers.brand,
-        timeframe: {
-          [Op.or]: temp,
+router.get(
+  '/weekly',
+  requireAuth,
+  requireServiceAccess,
+  checkBrandParams,
+  checkMultipleTimeframes,
+  async (req, res) => {
+    let temp = req.headers.timeframes.split(',');
+    try {
+      const allWholeFoodsTimeframeData = await WholeFoodsTimeframeData.findAll({
+        where: {
+          brand: req.headers.brand,
+          timeframe: {
+            [Op.or]: temp,
+          },
         },
-      },
-      order: [['timeframe', 'DESC']],
-    });
-    const wholeFoodsTimeframeData = allWholeFoodsTimeframeData.map((item) =>
-      item.get({ plain: true })
-    );
-    res.status(200).json(wholeFoodsTimeframeData);
-  } catch (err) {
-    console.log(err);
-
-    res.status(500).json(err);
+        order: [['timeframe', 'DESC']],
+      });
+      const wholeFoodsTimeframeData = allWholeFoodsTimeframeData.map((item) =>
+        item.get({ plain: true })
+      );
+      res.status(200).json(wholeFoodsTimeframeData);
+    } catch (err) {
+      res.status(500).json(err);
+    }
   }
-});
+);
 
-router.get('/monthly', async (req, res) => {
-  let temp = req.headers.timeframes.split(',');
-  try {
-    const allWholeFoodsTimeframeData = await WholeFoodsTimeframeData.findAll({
-      where: {
-        brand: req.headers.brand,
-        timeframe: {
-          [Op.or]: temp,
+router.get(
+  '/monthly',
+  requireAuth,
+  requireServiceAccess,
+  checkBrandParams,
+  checkMultipleTimeframes,
+  async (req, res) => {
+    let temp = req.headers.timeframes.split(',');
+    try {
+      const allWholeFoodsTimeframeData = await WholeFoodsTimeframeData.findAll({
+        where: {
+          brand: req.headers.brand,
+          timeframe: {
+            [Op.or]: temp,
+          },
         },
-      },
-      order: [['timeframe', 'DESC']],
-    });
-    const wholeFoodsTimeframeData = allWholeFoodsTimeframeData.map((item) =>
-      item.get({ plain: true })
-    );
-    res.status(200).json(wholeFoodsTimeframeData);
-  } catch (err) {
-    console.log(err);
-
-    res.status(500).json(err);
+        order: [['timeframe', 'DESC']],
+      });
+      const wholeFoodsTimeframeData = allWholeFoodsTimeframeData.map((item) =>
+        item.get({ plain: true })
+      );
+      res.status(200).json(wholeFoodsTimeframeData);
+    } catch (err) {
+      res.status(500).json(err);
+    }
   }
-});
+);
 
 module.exports = router;

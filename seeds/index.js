@@ -1,5 +1,5 @@
 const { WholeFoodsTimeframeData } = require('../models');
-const wfmTimeframeSeed = require('./wfmTimeframeSeed.json');
+const wfmTimeframeSeed = require('./wholeFoodsTimeframeDataPartTwo.json');
 
 const sequelize = require('../config/connection');
 
